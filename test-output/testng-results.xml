@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T16:30:44 IST" name="Cogmento CRM Regression Test Suite" finished-at="2023-07-25T16:34:51 IST" duration-ms="247084">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T16:30:44 IST" name="Contact Page Test Cases" finished-at="2023-07-25T16:34:51 IST" duration-ms="247084">
+      <class name="TestLayer.HomePageTest">
+        <test-method signature="validateHomePageTitle()[pri:2, instance:TestLayer.HomePageTest@4d5650ae]" started-at="2023-07-25T16:31:45 IST" name="validateHomePageTitle" finished-at="2023-07-25T16:31:45 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method signature="validateHomePageUrl()[pri:3, instance:TestLayer.HomePageTest@4d5650ae]" started-at="2023-07-25T16:31:45 IST" name="validateHomePageUrl" finished-at="2023-07-25T16:31:45 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageUrl -->
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.ContactPageTest">
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:31:52 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:32:16 IST" duration-ms="23988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mayur@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:32:16 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:32:33 IST" duration-ms="17100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pqr2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anjali@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:32:33 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:32:50 IST" duration-ms="16922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sulbha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Date]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sulbha@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:32:50 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:33:08 IST" duration-ms="18265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bankar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abhishek@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:33:08 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:33:26 IST" duration-ms="17478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajinkya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kadam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ajinkya@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:33:26 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:33:43 IST" duration-ms="17153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balaji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[balaji@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:33:43 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:34:00 IST" duration-ms="17197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sawale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bhushan@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:34:00 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:34:18 IST" duration-ms="17646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gauri ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chawathe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gauri@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:34:18 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:34:35 IST" duration-ms="17583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jagtap]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gaurav@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+        <test-method signature="validateNewContactFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestLayer.ContactPageTest@a38c7fe]" started-at="2023-07-25T16:34:35 IST" name="validateNewContactFunctionality" data-provider="getContactData" finished-at="2023-07-25T16:34:51 IST" duration-ms="16273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[komal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saykar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[komal@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewContactFunctionality -->
+      </class> <!-- TestLayer.ContactPageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:TestLayer.LoginPageTest@4f80542f]" started-at="2023-07-25T16:30:44 IST" name="setUp" finished-at="2023-07-25T16:31:36 IST" duration-ms="51499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFunctionality()[pri:1, instance:TestLayer.LoginPageTest@4f80542f]" started-at="2023-07-25T16:31:36 IST" name="loginFunctionality" finished-at="2023-07-25T16:31:45 IST" duration-ms="8996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.LoginPageTest@4f80542f]" started-at="2023-07-25T16:34:51 IST" name="tearDown" finished-at="2023-07-25T16:34:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLayer.LoginPageTest -->
+    </test> <!-- Contact Page Test Cases -->
+  </suite> <!-- Cogmento CRM Regression Test Suite -->
+</testng-results>

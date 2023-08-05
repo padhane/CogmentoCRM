@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Cogmento CRM Application]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Contact Page test cases in chrome (failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="TestLayer.HomePageTest">
+        <methods>
+          <include name="validateHomePageTitle"/>
+          <include name="validateHomePageUrl"/>
+        </methods>
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginFunctionality"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestLayer.LoginPageTest -->
+      <class name="TestLayer.ContactPageTest">
+        <methods>
+          <include name="validateNewContactFunctionality"/>
+        </methods>
+      </class> <!-- TestLayer.ContactPageTest -->
+    </classes>
+  </test> <!-- Contact Page test cases in chrome (failed) -->
+</suite> <!-- Failed suite [Cogmento CRM Application] -->
